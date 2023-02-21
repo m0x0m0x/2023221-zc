@@ -179,3 +179,52 @@ Account Sepolia Balance
 ==================================================
 ==================================================
 ==================================================
+No files changed, compilation skipped
+
+2023221-zc/f1 main*​ 
+❯ forge test -vvvvv --gas-report 
+[⠒] Compiling...
+No files changed, compilation skipped
+
+Running 2 tests for test/Counter.t.sol:CounterTest
+[PASS] testIncrement() (gas: 28390)
+Traces:
+  [124577] CounterTest::setUp() 
+    ├─ [67317] → new Counter@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← 336 bytes of code
+    ├─ [2412] Counter::setNumber(0) 
+    │   └─ ← ()
+    └─ ← ()
+
+  [28390] CounterTest::testIncrement() 
+    ├─ [22374] Counter::increment() 
+    │   └─ ← ()
+    ├─ [305] Counter::number() [staticcall]
+    │   └─ ← 1
+    └─ ← ()
+
+[PASS] testSetNumber(uint256) (runs: 256, μ: 27597, ~: 28453)
+Traces:
+  [124577] CounterTest::setUp() 
+    ├─ [67317] → new Counter@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← 336 bytes of code
+    ├─ [2412] Counter::setNumber(0) 
+    │   └─ ← ()
+    └─ ← ()
+
+  [28453] CounterTest::testSetNumber(115792089237316195423570985008687907853269984665640564039457584007913129639934) 
+    ├─ [22312] Counter::setNumber(115792089237316195423570985008687907853269984665640564039457584007913129639934) 
+    │   └─ ← ()
+    ├─ [305] Counter::number() [staticcall]
+    │   └─ ← 115792089237316195423570985008687907853269984665640564039457584007913129639934
+    └─ ← ()
+
+Test result: ok. 2 passed; 0 failed; finished in 11.45ms
+| src/Counter.sol:Counter contract |                 |       |        |       |         |
+|----------------------------------|-----------------|-------|--------|-------|---------|
+| Deployment Cost                  | Deployment Size |       |        |       |         |
+| 67317                            | 368             |       |        |       |         |
+| Function Name                    | min             | avg   | median | max   | # calls |
+| increment                        | 22374           | 22374 | 22374  | 22374 | 1       |
+| number                           | 305             | 305   | 305    | 305   | 2       |
+| setNumber                        | 2412            | 9045  | 2412   | 22312 | 3       |
