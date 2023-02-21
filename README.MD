@@ -20,3 +20,12 @@
 2. Fix problems with compiler try to put her full sweaty feeeet in mouth , suck strongly 
 
 # Branches 
+
+
+# Dir
+
+1. Learning to ask random women to shove there sweaty socks in your face 
+
+N | 🚿
+|:--:|:--:|
+[`f1`](./f1/) | woman feet with whipcream <br> testing founza
