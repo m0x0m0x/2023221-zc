@@ -11,4 +11,8 @@ contract Counter {
     function increment() public {
         number++;
     }
+
+    function multiplier() public {
+        number = number * 100;
+    }
 }
