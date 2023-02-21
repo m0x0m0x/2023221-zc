@@ -7,7 +7,7 @@
 set f1w1 0xd89c88A06C04d1b9248949732a0D3d58F9f8025e
 set f2w1k ea051e40f9fac5c5ec1d4f848ed60982d863ee02056836c92f40a91ab76dcdbc
 
-set f1w2 0x44D871857c4A7f030f2244b7be22492acF85099c
+set f2w2 0x44D871857c4A7f030f2244b7be22492acF85099c
 set f2w2k 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d
 
 ## RPCS
@@ -24,7 +24,11 @@ set qui_bsc https://broken-dimensional-paper.bsc-testnet.discover.quiknode.pro/1
 set in_sep https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8
 
 #################################################################################################################################
-
+echo "=================================================="
+echo "=================================================="
+echo "=================================================="
+echo "=================================================="
+echo ""
 echo ""
 echo "Auto pantypeel deployer script"
 echo "-------------------------------"
@@ -46,9 +50,19 @@ forge create \
       --etherscan-api-key $eth \
        /workspaces/2023221-zc/f1/src/Counter.sol:Counter \
      --verify --verifier etherscan 
- 
 echo "%%% DONE ###"
 echo "%%% DONE ###"
+echo ""
+echo ""
+set bast ( cast --to-unit ( \
+  cast balance --rpc-url $in_sep $f2w2 ) eth )
+echo ""
+echo ""
+echo "-balance-balance-balance-balance-balance-balance-"
+echo "Account Sepolia Balance"
+echo $f2w2 $bast ether 
+echo "-balance-balance-balance-balance-balance-balance-"
+echo ""
 echo "=================================================="
 echo "=================================================="
 echo "=================================================="

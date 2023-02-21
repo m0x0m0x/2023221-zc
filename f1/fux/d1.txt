@@ -59,3 +59,123 @@ Contract successfully verified
 ==================================================
 ==================================================
 ==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+
+
+Auto pantypeel deployer script
+-------------------------------
+
+ Deploy to sepolia
+Commando upskrt
+forge create \ 
+ --rpc-url https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8 \ 
+ --private-key 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d \ 
+ src/Counter.sol:Counter 
+
+%%% START DEPLOY%%%
+%%% START DEPLOY%%%
+
+
+No files changed, compilation skipped
+Deployer: 0x44D871857c4A7f030f2244b7be22492acF85099c
+Deployed to: 0xd7B8cDC7E46952942B025624227f12D099fe572E
+Transaction hash: 0xdce1995811c6f596775359a41831195be0da239705e434d8b57e244f623e22ae
+Starting contract verification...
+Waiting for etherscan to detect contract deployment...
+Start verifying contract `0xd7b8cdc7e46952942b025624227f12d099fe572e` deployed on sepolia
+
+Submitting verification for [src/Counter.sol:Counter] "0xd7B8cDC7E46952942B025624227f12D099fe572E".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `hqbqpicfptmwpufzdixi3cvvctvphqcpgkaxahwgf8s6maehgg`
+	URL:
+        https://sepolia.etherscan.io/address/0xd7b8cdc7e46952942b025624227f12d099fe572e
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+%%% DONE ###
+%%% DONE ###
+
+
+
+
+-balance-balance-balance-balance-balance-balance-
+Account Sepolia Balance
+0x44D871857c4A7f030f2244b7be22492acF85099c 0.023868798997360531
+-balance-balance-balance-balance-balance-balance-
+
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+
+
+Auto pantypeel deployer script
+-------------------------------
+
+ Deploy to sepolia
+Commando upskrt
+forge create \ 
+ --rpc-url https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8 \ 
+ --private-key 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d \ 
+ src/Counter.sol:Counter 
+
+%%% START DEPLOY%%%
+%%% START DEPLOY%%%
+
+
+No files changed, compilation skipped
+Deployer: 0x44D871857c4A7f030f2244b7be22492acF85099c
+Deployed to: 0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed
+Transaction hash: 0x8bd9394ff725bd92b365dafb1a5b8e8e96f19651fe1154ae2f399323298cdab6
+Starting contract verification...
+Waiting for etherscan to detect contract deployment...
+Start verifying contract `0x141d72f0fa7c673c280b95f0be6b17e2f266b7ed` deployed on sepolia
+
+Submitting verification for [src/Counter.sol:Counter] "0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed".
+
+Submitting verification for [src/Counter.sol:Counter] "0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed".
+
+Submitting verification for [src/Counter.sol:Counter] "0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed".
+
+Submitting verification for [src/Counter.sol:Counter] "0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed".
+
+Submitting verification for [src/Counter.sol:Counter] "0x141d72F0Fa7c673c280B95F0bE6b17e2F266B7ed".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `diwveftgnvmezyfyf3i8qkpg4vaq8sep7sdtsmhweuuzurztqn`
+	URL:
+        https://sepolia.etherscan.io/address/0x141d72f0fa7c673c280b95f0be6b17e2f266b7ed
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+%%% DONE ###
+%%% DONE ###
+
+
+
+
+-balance-balance-balance-balance-balance-balance-
+Account Sepolia Balance
+0x44D871857c4A7f030f2244b7be22492acF85099c 0.023491731996480708 ether
+-balance-balance-balance-balance-balance-balance-
+
+==================================================
+==================================================
+==================================================
+==================================================
