@@ -25,6 +25,20 @@ set in_sep https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8
 
 #################################################################################################################################
 
-
+echo ""
 echo "Auto pantypeel deployer script"
-echo "-------------------------------
+echo "-------------------------------"
+echo ""
+echo " Deploy to sepolia"
+echo "Commando upskrt"
+echo "forge create \ "
+echo " --rpc-url $in_sep \ "
+echo " --private-key $f2w2k \ "
+echo " src/Counter.sol:Counter "
+echo ""
+echo "%%% START DEPLOY%%%"
+echo "%%% START DEPLOY%%%"
+forge create \
+  --rpc-url $in_sep \
+  --private-key $f2w2k \
+  ../src/Counter.sol:Counter 

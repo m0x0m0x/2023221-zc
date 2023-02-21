@@ -1,0 +1,13 @@
+
+Auto pantypeel deployer script
+-------------------------------
+
+ Deploy to sepolia
+Commando upskrt
+forge create \ 
+ --rpc-url https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8 \ 
+ --private-key 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d \ 
+ src/Counter.sol:Counter 
+No files changed, compilation skipped
+Error: 
+[31mcould not find artifact: `Counter`[0m
