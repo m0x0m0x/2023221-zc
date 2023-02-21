@@ -38,7 +38,18 @@ echo " src/Counter.sol:Counter "
 echo ""
 echo "%%% START DEPLOY%%%"
 echo "%%% START DEPLOY%%%"
+echo ""
+echo ""
 forge create \
-  --rpc-url $in_sep \
-  --private-key $f2w2k \
-  ../src/Counter.sol:Counter 
+       --rpc-url $in_sep \
+       --private-key $f2w2k \
+      --etherscan-api-key $eth \
+       /workspaces/2023221-zc/f1/src/Counter.sol:Counter \
+     --verify --verifier etherscan 
+ 
+echo "%%% DONE ###"
+echo "%%% DONE ###"
+echo "=================================================="
+echo "=================================================="
+echo "=================================================="
+echo "=================================================="

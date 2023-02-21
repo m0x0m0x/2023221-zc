@@ -8,6 +8,54 @@ forge create \
  --rpc-url https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8 \ 
  --private-key 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d \ 
  src/Counter.sol:Counter 
+
+%%% START DEPLOY%%%
+%%% START DEPLOY%%%
 No files changed, compilation skipped
-Error: 
-[31mcould not find artifact: `Counter`[0m
+Deployer: 0x44D871857c4A7f030f2244b7be22492acF85099c
+Deployed to: 0x1D21C47A8D22f5cCEac37Cf37d3aB8Cfdaf55365
+Transaction hash: 0xd7d4d62d15e179b48bf16f262ce05c9e29d6b7e7254d3316afd8a3fd136735ba
+
+Auto pantypeel deployer script
+-------------------------------
+
+ Deploy to sepolia
+Commando upskrt
+forge create \ 
+ --rpc-url https://sepolia.infura.io/v3/aad54c64a7904ba39e06e745c623e7f8 \ 
+ --private-key 67365bfd0c8dada42ef2b0a7cbd4d9f8441a0200b076178a4a8cc3c3e136df6d \ 
+ src/Counter.sol:Counter 
+
+%%% START DEPLOY%%%
+%%% START DEPLOY%%%
+
+
+No files changed, compilation skipped
+Deployer: 0x44D871857c4A7f030f2244b7be22492acF85099c
+Deployed to: 0x64E4D2c93D19D1BaF81C52b7B0b54f05780A2C29
+Transaction hash: 0xf7885bb228b1124c0df6cb7332b659581a7b3ca0437542425c73b88059c73351
+Starting contract verification...
+Waiting for etherscan to detect contract deployment...
+Start verifying contract `0x64e4d2c93d19d1baf81c52b7b0b54f05780a2c29` deployed on sepolia
+
+Submitting verification for [src/Counter.sol:Counter] "0x64E4D2c93D19D1BaF81C52b7B0b54f05780A2C29".
+
+Submitting verification for [src/Counter.sol:Counter] "0x64E4D2c93D19D1BaF81C52b7B0b54f05780A2C29".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `upavzb9vccafs8e8jqgraqyacprpkxdalpew44x9amzd8at67t`
+	URL:
+        https://sepolia.etherscan.io/address/0x64e4d2c93d19d1baf81c52b7b0b54f05780a2c29
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+%%% DONE ###
+%%% DONE ###
+==================================================
+==================================================
+==================================================
+==================================================
